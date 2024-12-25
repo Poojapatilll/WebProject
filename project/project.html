@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div id="form-container">
+        <h1>Signup</h1>
+        <form action="" id="signup-form" novalidate>
+      <div id="form-group">
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" minlength="3" required placeholder="enter username">
+        <span class="errors" id="usernameErrors"></span>
+      </div>
+      <div id="form-group">
+        <label for="mail">Email-ID</label>
+        <input type="email" id="mail" name="mail" required placeholder="enter Email">
+        <span class="errors" id="mailErrors"></span>
+      </div>
+      <div id="form-group">
+        <label for="password">password</label>
+        <input type="text" id="password" name="password" required placeholder="enter password">
+        <span class="errors" id="passwordErrors"></span>
+      </div>
+      <div id="form-group">
+        <label for="confirmpassword">confirm-password</label>
+        <input type="text" id="confirmpassword" name="confirmpassword" required placeholder="enter confirm password">
+        <span class="errors" id="confirmPasswordErrors"></span>
+  <br>
+        <button type="submit" class="submit-btn">signup</button>
+      </div>
+         </form>
+         <div class="form-footer">
+           already have an account? <a href="#">Login</a>
+         </div>
+    </div>
+
+
+
+    <script src="project.js"></script>
+    
+</body>
+</html>
